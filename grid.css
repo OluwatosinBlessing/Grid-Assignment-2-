@@ -1,0 +1,39 @@
+*{margin:0;
+ padding: 0;
+ }
+
+body{
+  
+  background-color: black
+}
+
+main{display:grid;
+     
+    }
+
+main div{padding:2em;
+         text-align:center;
+         grid-template areas:
+         'a a b'
+         'c '
+        }
+.item-a{
+  background-color: darkorange;
+  grid-area:a;
+}
+.item-b{
+  background-color: #e6e651;
+  grid-area:b;
+}
+.item-c{
+  background-color: #6bc76b;
+  grid-area:c;
+}
+.item-d{
+  background-color: #1a6d8e;
+  grid-area:d;
+}
+.item-e{
+  background-color: #2ea6d6;
+  grid-area:e;
+}
