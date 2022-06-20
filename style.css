@@ -1,4 +1,57 @@
-html, body {
-  height: 100%;
-  width: 100%;
+body{
+    background-color: black;
+}
+
+
+.a{
+    background-color:darkorange;
+  
+}
+
+
+.b{
+    background-color:#e6e651;
+  
+}
+
+.c{
+
+    background-color:#6bc76b ;
+  
+}
+
+.d{
+    background-color:#1a6d8e;
+}
+
+.e{
+
+    background-color:#1a6d8e;
+}
+
+
+.bottomright{
+    display:block;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    width: 100%;
+    margin: auto;
+    flex:1;
+    height:80%;
+}
+
+.top{
+    display:grid;
+    width: 100%;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: auto;
+}
+
+.bottom{
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: auto;
 }
