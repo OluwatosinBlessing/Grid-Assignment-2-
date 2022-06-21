@@ -5,53 +5,70 @@ body{
 
 .a{
     background-color:darkorange;
-  
+    padding:20%;
+    margin:2%;
+    text-align:center;
 }
 
 
 .b{
     background-color:#e6e651;
-  
+    padding:20%;
+    margin:2%;
+    text-align:center;
+    
 }
 
 .c{
 
     background-color:#6bc76b ;
+    padding:20%;
+    margin:2%;
+    text-align:center;
   
 }
 
 .d{
     background-color:#1a6d8e;
+    padding:20%;
+    margin:2%;
+    text-align:center;
 }
 
 .e{
 
     background-color:#1a6d8e;
+    padding:20%;
+    margin:2%;
+    text-align:center;
 }
 
 
 .bottomright{
-    display:block;
+    display:grid;
+    grid-template-rows: 50% 50%;
 }
 
 .container{
-    display: grid;
-    grid-template-rows: auto;
-    width: 100%;
+    display: inline-grid;
+    width:50% ;
     margin: auto;
-    flex:1;
-    height:80%;
+    align-content: center;
+    margin:10%;
+    height:50%
 }
 
 .top{
     display:grid;
-    width: 100%;
-    grid-template-columns: 75% 25%;
-    grid-template-rows: auto;
+    grid-template-columns: 75% auto;
+    grid-template-rows: auto auto;
+    margin: 0;
+    
 }
 
 .bottom{
     display:grid;
     grid-template-columns:50% 50%;
     grid-template-rows: auto;
+    margin: 0;
 }
